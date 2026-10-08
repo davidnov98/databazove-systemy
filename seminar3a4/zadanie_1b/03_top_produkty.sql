@@ -12,4 +12,4 @@ ranked_products AS (
 )
 SELECT product_category, product_name, suma,
 category_rank FROM ranked_products WHERE category_rank <= 3
-ORDER BY product_category, category_rank LIMIT 10;
+ORDER BY product_category, category_rank;
