@@ -1,4 +1,4 @@
--- Active: 1791977324147@@127.0.0.1@5432@retail
+-- Active: 1790669352760@@127.0.0.1@5432@retail@public_salestore
 CREATE DATABASE retail;
 
 CREATE TABLE retail_sales (
