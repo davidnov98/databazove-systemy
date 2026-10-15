@@ -1,4 +1,4 @@
-SELECT DATE_TRUNC('month', order_date) AS monthly_sales, SUM(sales) AS total,
+SELECT DATE_TRUNC('month', order_date) AS month, SUM(sales) AS monthly_sales,
 LAG(SUM(sales), 1) OVER(
     ORDER BY DATE_TRUNC('month', order_date)
 ) AS prev_month_sales,
